@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\Documents\\2024-2\\Aplicacion y servicios web\\Taller 2\\Api\\ApiTiendaAccesorios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85E44365-3F24-45BE-942F-73FDE2CD2D6F}|ApiTiendaAccesorios\\ApiTiendaAccesorios.csproj|c:\\users\\danie\\documents\\2024-2\\aplicacion y servicios web\\taller 2\\api\\apitiendaaccesorios\\apitiendaaccesorios\\clases\\clscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E44365-3F24-45BE-942F-73FDE2CD2D6F}|ApiTiendaAccesorios\\ApiTiendaAccesorios.csproj|solutionrelative:apitiendaaccesorios\\clases\\clscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E44365-3F24-45BE-942F-73FDE2CD2D6F}|ApiTiendaAccesorios\\ApiTiendaAccesorios.csproj|c:\\users\\danie\\documents\\2024-2\\aplicacion y servicios web\\taller 2\\api\\apitiendaaccesorios\\apitiendaaccesorios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E44365-3F24-45BE-942F-73FDE2CD2D6F}|ApiTiendaAccesorios\\ApiTiendaAccesorios.csproj|solutionrelative:apitiendaaccesorios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\2024-2\\Aplicacion y servicios web\\Taller 2\\Api\\ApiTiendaAccesorios\\ApiTiendaAccesorios\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "ApiTiendaAccesorios\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\2024-2\\Aplicacion y servicios web\\Taller 2\\Api\\ApiTiendaAccesorios\\ApiTiendaAccesorios\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "ApiTiendaAccesorios\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T02:58:47.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsCliente.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\2024-2\\Aplicacion y servicios web\\Taller 2\\Api\\ApiTiendaAccesorios\\ApiTiendaAccesorios\\Clases\\clsCliente.cs",
+              "RelativeDocumentMoniker": "ApiTiendaAccesorios\\Clases\\clsCliente.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\2024-2\\Aplicacion y servicios web\\Taller 2\\Api\\ApiTiendaAccesorios\\ApiTiendaAccesorios\\Clases\\clsCliente.cs",
+              "RelativeToolTip": "ApiTiendaAccesorios\\Clases\\clsCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T02:47:44.054Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

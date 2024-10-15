@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1206768892294128a73d21c812361cc1" Name="Diagram1">
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.sysdiagram" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblCiudad" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblCliente" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblDetallePedido" Width="1.5" PointX="10.5" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblDireccionCliente" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblDireccionProveedor" Width="1.5" PointX="5.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblFormaEntrega" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblFormaPago" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblGarantia" Width="1.5" PointX="12.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblPedido" Width="1.5" PointX="7.5" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblProducto" Width="1.5" PointX="8.25" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblProveedor" Width="1.5" PointX="3" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblTelefonoCliente" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblTelefonoProveedor" Width="1.5" PointX="5.25" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblTipoDocumento" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdTiendaAccesoriosModel.tblTipoProducto" Width="1.5" PointX="6" PointY="17" IsExpanded="true" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_Ciudad_DireccionCliente" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_Ciudad_DireccionProveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_Cliente_DireccionCliente" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_Cliente_Pedido" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_Cliente_TelefonoCliente" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_TipoDocumento_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_DetallePedido_Garantia" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_Pedido_DetallePedido" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_Producto_DetallePedido" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_Direccion_Pedido" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_Proveedor_DireccionProveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_FormaEntrega_Pedido" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_FormaPago_Pedido" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_Proveedor_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_TipoProducto_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_Proveedor_TelefonoProveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="bdTiendaAccesoriosModel.FK_TipoDocumento_Proveedor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
