@@ -9,6 +9,7 @@
 
 namespace ApiTiendaAccesorios.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -24,9 +25,13 @@ namespace ApiTiendaAccesorios.Models
         public int id { get; set; }
         public string nombre { get; set; }
         public bool activo { get; set; }
+
+        [JsonIgnore]
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<tblDireccionCliente> tblDireccionClientes { get; set; }
+
+        [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<tblDireccionProveedor> tblDireccionProveedors { get; set; }
     }

@@ -45,10 +45,10 @@ namespace ApiTiendaAccesorios.Clases
                 bdTienda.SaveChanges();
                 return $"Se actualizó el cliente con documento {cliente.nro_documento}";
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                return ex.Message;
             }
         }
 
@@ -78,9 +78,9 @@ namespace ApiTiendaAccesorios.Clases
                    join tC in bdTienda.Set<tblCliente>() on tP.id equals tC.id_tipo_documento
                    select new
                    {
-                       idCliente = tP.id,
                        nombre = tC.nombre,
                        tipoDocumento = tP.Nombre,
+                       Documento = tC.nro_documento,
                        Activo = tC.activo
                    };
         }

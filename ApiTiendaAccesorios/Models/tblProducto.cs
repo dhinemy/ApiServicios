@@ -9,6 +9,7 @@
 
 namespace ApiTiendaAccesorios.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -28,10 +29,14 @@ namespace ApiTiendaAccesorios.Models
         public int id_tipo_producto { get; set; }
         public int tiempo_garantia { get; set; }
         public Nullable<double> descuento { get; set; }
+
+        [JsonIgnore]
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<tblDetallePedido> tblDetallePedidoes { get; set; }
+        [JsonIgnore]
         public virtual tblProveedor tblProveedor { get; set; }
+        [JsonIgnore]
         public virtual tblTipoProducto tblTipoProducto { get; set; }
     }
 }

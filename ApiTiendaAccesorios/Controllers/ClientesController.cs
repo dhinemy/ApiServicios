@@ -10,7 +10,7 @@ using System.Web.Http.Cors;
 
 namespace ApiTiendaAccesorios.Controllers
 {
-    [EnableCors(origins:"*", headers:"*", methods:"*")]
+    [EnableCors(origins: "http://localhost:61762", headers: "*", methods: "*")]
     [RoutePrefix("api/Cliente")]
     public class ClientesController : ApiController
     {

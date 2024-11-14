@@ -9,6 +9,7 @@
 
 namespace ApiTiendaAccesorios.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -23,7 +24,9 @@ namespace ApiTiendaAccesorios.Models
         public int id { get; set; }
         public string Nombre { get; set; }
         public bool Activo { get; set; }
-    
+
+        [JsonIgnore]
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<tblProducto> tblProductoes { get; set; }
     }
