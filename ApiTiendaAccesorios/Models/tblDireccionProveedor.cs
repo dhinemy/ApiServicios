@@ -9,6 +9,7 @@
 
 namespace ApiTiendaAccesorios.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -19,8 +20,9 @@ namespace ApiTiendaAccesorios.Models
         public int id_ciudad { get; set; }
         public string direccion { get; set; }
         public bool activo { get; set; }
-    
+        [JsonIgnore]
         public virtual tblCiudad tblCiudad { get; set; }
+        [JsonIgnore]
         public virtual tblProveedor tblProveedor { get; set; }
     }
 }

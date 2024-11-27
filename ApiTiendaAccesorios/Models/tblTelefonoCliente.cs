@@ -9,6 +9,8 @@
 
 namespace ApiTiendaAccesorios.Models
 {
+    using Newtonsoft.Json;
+
     using System;
     using System.Collections.Generic;
     
@@ -18,7 +20,8 @@ namespace ApiTiendaAccesorios.Models
         public int id_cliente { get; set; }
         public string telefono { get; set; }
         public bool activo { get; set; }
-    
+        [JsonIgnore]
+
         public virtual tblCliente tblCliente { get; set; }
     }
 }
